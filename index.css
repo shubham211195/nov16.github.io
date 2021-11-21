@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#op{
+    font-size: smaller;
+}
+body{
+    margin: 50px 20px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.4286;
+    color: #242424;
+    font-family:  "Segoe UI",system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;
+}
+tr:nth-child(even){
+    background-color:#B983FF ;
+}
+tr:nth-child(odd){
+    background-color: #94DAFF;
+}
+.open{
+    text-align: center;
+  width: 14%;
+  padding: 10px;
+}
+#tab0{
+    border-spacing: 0px;
+    padding: 3px 6px;
+    vertical-align: top;
+}
+#tab1{
+    border-spacing: 0px;
+    padding: 3px 6px;
+    table-layout: fixed;
+    vertical-align: top;
+}
+hr{
+    opacity: 0.3;
+}
+td{
+    border: 1px solid #242424;
+    text-align: center;
+    
+}
+th{
+    border: 1px solid #242424;
+
+}
+h3{
+    font-size: 35px;
+}
+#wiki{
+    line-height: 43px;
+    margin-right: 150px;
+    margin-top: 80px;
+    width: 70%;
+    float: right;
+}
+button{
+    border: 4px solid purple;
+    padding: 10px;
+    border-radius: 25px;
+    position: fixed;
+
+}
